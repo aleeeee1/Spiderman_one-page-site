@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Marvel;
+  src: url("../fonts/MarvelRegular-Dj83.ttf");
+}
+@font-face {
+  font-family: SpiderMan;
+  src: url("../fonts/good\ times\ rg.ttf");
+}
+
+@font-face {
+  font-family: Kayak;
+  src: url("../fonts/Kayak\ Sans\ Regular.otf");
+}
+@font-face {
+  font-family: Kayak-bold;
+  src: url("../fonts/Kayak\ Sans\ Bold.otf");
+}
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap");
+
+body {
+  background: #f2f4f8;
+  font-family: "Kayak";
+  min-height: 800vh;
+  margin: 0;
+}
+
+.container-sezione {
+  padding: 5px;
+  margin: 20px 130px 0 130px;
+}
+
+.titolo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.sezione p {
+  font-size: 4vh;
+}
+
+.fine-sezione {
+  border: 1px solid black;
+  margin: 20px 90px 0 90px;
+}
+
+.back-to-top {
+  background-size: 100% 200%;
+  color: white;
+  background-image: linear-gradient(to bottom, #333 50%, #fff 50%);
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.3);
+  width: 50px;
+  height: 50px;
+  margin-top: 50%;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  transition: background-position 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.back-to-top:hover {
+  background-position: 0 100%;
+  color: black;
+  box-shadow: 0 14px 26px rgba(83, 83, 83, 0.3);
+}
+
+.back-to-top > i {
+  margin-top: calc(50% - 10px);
+  font-size: 20px;
+}
+
+.destra {
+  float: right;
+}
+
+.sinistra {
+  float: left;
+}

@@ -1,0 +1,12 @@
+.traduzione {
+  max-height: 720px;
+  background-color: rgba(0, 0, 0, 0.061);
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-left: 20px;
+}
+
+.traduzione p {
+  margin: 0;
+  font-size: 3vh;
+}

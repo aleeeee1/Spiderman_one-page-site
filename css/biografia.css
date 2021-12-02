@@ -1,0 +1,27 @@
+.biografia img {
+  padding-right: 10px;
+  float: left;
+}
+
+.citazione {
+  font-size: 4vh;
+  font-style: normal;
+  text-decoration: underline;
+  font-size: 48px;
+  line-height: 56px;
+  padding-left: 40px;
+  border-left: 2px solid rgb(0, 0, 0);
+}
+
+.container-citazione {
+  display: flex;
+}
+
+.nascosto {
+  display: none;
+}
+
+.dettagli {
+  color: rgba(0, 0, 0, 0.26);
+  text-decoration: underline rgb(202, 202, 202);
+}
