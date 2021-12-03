@@ -79,3 +79,7 @@ body {
 .sinistra {
   float: left;
 }
+.no-space {
+  border: 0;
+  margin: 0;
+}
