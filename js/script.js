@@ -72,3 +72,23 @@ $(window).scroll(function () {
     $(".back-to-top").addClass("nascosto");
   }
 });
+
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    $(".attivo").removeClass("attivo");
+
+    var curr_height = $(document).scrollTop();
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute("href")).scrollIntoView({
+      behavior: "smooth", //scroll asse x
+    });
+    $("html, body").animate(
+      {
+        scrollTop: curr_height, //scroll asse y
+      },
+      0
+    );
+    $(this).addClass("attivo");
+  });
+});
