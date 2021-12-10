@@ -20,7 +20,7 @@
 body {
   background: #f2f4f8;
   font-family: "Kayak";
-  min-height: 800vh;
+  min-height: 1000vh;
   margin: 0;
 }
 
@@ -88,6 +88,36 @@ body {
   margin: 0;
 }
 
-td > p {
+.tabella-poteri td > p {
   text-align: center;
+}
+
+.footer {
+  background-color: #646464;
+  font-size: 1.5vh;
+  padding-bottom: 30px;
+}
+
+.testo-footer {
+  padding: 20px;
+  font-size: 3.4vh;
+}
+
+input[type="text"] {
+  height: 30px;
+  font-size: 3vh;
+  margin-left: 6px;
+}
+input[type="email"] {
+  height: 30px;
+  font-size: 3vh;
+}
+
+input[type="radio"] {
+  transform: scale(1.4);
+}
+button[type="submit"] {
+  font-size: 2vh;
+  margin-left: 6px;
+  margin-top: 4px;
 }

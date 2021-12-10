@@ -1,5 +1,21 @@
 AOS.init();
 
+$("#to-film").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $(".titolo-film").offset().top - 120,
+    },
+    1700
+  );
+});
+$("#to-poteri").click(function () {
+  $("html, body").animate(
+    {
+      scrollTop: $(".titolo-poteri").offset().top - 120,
+    },
+    1700
+  );
+});
 $(".back-to-top").click(function () {
   $("html, body").animate(
     {
